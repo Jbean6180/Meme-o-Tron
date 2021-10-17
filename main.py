@@ -13,7 +13,7 @@ cogs = [meme]
 client = commands.Bot(command_prefix='?',intents = discord.Intents.all(),case_insensitive=True)
 
 
-status = ['Being Sus','Osu','Dripping out']
+status = ['Osu','Dripping out']
 
 
 @client.event
