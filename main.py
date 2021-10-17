@@ -47,10 +47,6 @@ async def hello(ctx):
     responses = ['***grumble*** Why did you wake me up?', 'Hey Daddy']
     await ctx.send(choice(responses))
 
-@client.command(name='sus', help='This command returns a random welcome message')
-async def sus(ctx):
-    responses = ['Cmon guys love songs are not that bad', 'I went to catholic school because I needed a break from girls', 'They should get a boys volleyball team at my school', 'Got banned from Xbox for watching gay porn', 'My barber just asked me “what’s your team?” and I replied “Gay” and he replied “football?” to which I replied “Oh no thank you” and now neither of us knows where to go with this mess of a convo. So now we are just sitting in silence.']
-    await ctx.send(choice(responses))
 
 @client.command(name='die', help='This command returns a random last words')
 async def die(ctx):
